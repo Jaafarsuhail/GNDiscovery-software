@@ -86,3 +86,7 @@ The GNRetain and GNMIC models address experimentally different endpoints; their 
 The retention component builds on the measurements reported by **Le Goff et al.**, *Scientific Reports* **15**, 25431 (2025), https://doi.org/10.1038/s41598-025-10208-6. The activity component uses **ChEMBL** bioactivity records; see **Zdrazil et al.**, *Nucleic Acids Research* **52**, D1180–D1192 (2024), https://doi.org/10.1093/nar/gkad1004.
 
 See [third-party notices](THIRD_PARTY_NOTICES.md), [data sources](DATA_SOURCES.md), and [licensing](DATA_LICENSE.md) for source attribution and applicable licensing terms. Original application code is released under the MIT license to the extent the author holds the rights; ChEMBL-derived database content retains CC BY-SA 3.0 terms. The original software code, third-party data, and derived model artifacts are distinct components and may be subject to different rights.
+
+## Citation
+
+Wadi, J. S. (2026). *GNDiscovery: an integrated platform for predicting bacterial retention and MIC activity* (version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23645707
