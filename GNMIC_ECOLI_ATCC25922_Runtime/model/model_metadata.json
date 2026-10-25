@@ -1,0 +1,60 @@
+{
+  "package_name": "GNMIC_EC1792_FinalModel_v1",
+  "model_name": "GNMIC-EC1792",
+  "organism": "Escherichia coli ATCC 25922",
+  "endpoint": {
+    "positive": "MIC <=16 ug/mL",
+    "negative": "MIC >32 ug/mL",
+    "intermediate_excluded": "MIC >16 to 32 ug/mL"
+  },
+  "training_n": 10148,
+  "training_positive_n": 4118,
+  "training_negative_n": 6030,
+  "n_generated_features": 9970,
+  "n_model_features": 1792,
+  "reduction_vs_9970_percent": 82.0,
+  "reduction_vs_ec2048_percent": 12.5,
+  "algorithm": "LightGBM GBDT",
+  "ensemble": "mean probability across three full-cohort seeded fits",
+  "seeds": [
+    26011,
+    26012,
+    26013
+  ],
+  "threshold": 0.5099999999999998,
+  "threshold_source": "Leakage-controlled repeated scaffold OOF Top-1792 fine-dimensionality benchmark",
+  "internal_nested_oof": {
+    "n_features": 1792.0,
+    "roc_auc": 0.9006904726811145,
+    "average_precision": 0.879229267303044,
+    "threshold": 0.5099999999999998,
+    "mcc": 0.6483779250584393,
+    "balanced_accuracy": 0.8179681566266128,
+    "sensitivity": 0.74356483729966,
+    "specificity": 0.8923714759535655,
+    "tp": 3062.0,
+    "fn": 1056.0,
+    "tn": 5381.0,
+    "fp": 649.0
+  },
+  "external_strains": [
+    "W3110",
+    "NIHJ JC-2",
+    "K-12",
+    "JUHL",
+    "MC4100",
+    "ATCC 8739"
+  ],
+  "external_data_used_for_feature_or_threshold_selection": false,
+  "external_selection_caveat": "The six strains were selected from a prior Topology9970 audit as a favorable-transfer subset.",
+  "software": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+  },
+  "n_features": 1792,
+  "model_sha256": "ecb000ece0356ef1fd53390ee888ed2acdd2befc6c972c833643e11384b38e0d",
+  "feature_manifest_sha256": "c942426f4a875ddd42c6ff60f8970829190d5d34435d97af77af7863e3e3efce",
+  "deployment_version": "GNDiscovery EC1792 rebuild 2026-10-18",
+  "support_model_provenance": "new refit from original EC1792 OOF with archived scaffold-held-out neighbour evidence",
+  "active_deployed_classifier": "GNMIC-EC1792"
+}

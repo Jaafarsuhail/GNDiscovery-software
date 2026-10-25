@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use GNDiscovery in research, please cite the associated publication and the software."
+title: "GNDiscovery: an integrated platform for predicting bacterial retention and MIC activity"
+type: software
+authors:
+  - family-names: Wadi
+    given-names: Jaafar Suhail
+keywords:
+  - cheminformatics
+  - antibacterial discovery
+  - bacterial retention
+  - minimum inhibitory concentration
+  - machine learning
+  - Streamlit

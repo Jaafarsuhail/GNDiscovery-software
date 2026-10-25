@@ -1,0 +1,64 @@
+{
+  "properties": [
+    "Molecular weight",
+    "RDKit cLogP",
+    "TPSA",
+    "H-bond donors",
+    "H-bond acceptors",
+    "Rotatable bonds",
+    "Fraction Csp3",
+    "Aromatic rings"
+  ],
+  "mean": [
+    333.96486922230383,
+    2.243093837123992,
+    73.50632611885547,
+    1.3475788701393985,
+    4.888481291269259,
+    4.738994864269992,
+    0.4199284662417653,
+    1.8351063829787233
+  ],
+  "scale": [
+    94.03717204464824,
+    1.0238599112150062,
+    30.219029441883478,
+    1.0417141575847906,
+    1.9050362176773585,
+    2.1641881869215753,
+    0.18649309122408975,
+    0.8527673477318674
+  ],
+  "components": [
+    [
+      0.4831384587020539,
+      -0.16243313259369804,
+      0.5335635955961523,
+      0.3547152580096915,
+      0.4856706771863934,
+      0.26060976907191513,
+      0.04827063953832723,
+      0.15348019185738754
+    ],
+    [
+      0.06417793445624202,
+      0.48983512753596153,
+      -0.02853936627592935,
+      -0.1319849130344159,
+      0.04945851017533935,
+      0.06687385691831799,
+      -0.5759525320128593,
+      0.6317188075122553
+    ]
+  ],
+  "explained_variance_ratio": [
+    0.3855900047583995,
+    0.2508754091253152
+  ],
+  "n_reference": 5452,
+  "reference_dataset": "GNRetain V05 training set",
+  "reference_endpoint": "Gram-negative retention RP/RN",
+  "rdkit_version": "2025.09.4",
+  "scikit_learn_version": "1.8.0",
+  "note": "PCA fitted on eight RDKit reader-facing diagnostics. Exact applicability-domain assignment uses Morgan similarity and the 221 deployed model-feature ranges."
+}

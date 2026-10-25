@@ -1,0 +1,56 @@
+{
+  "properties": [
+    "Acidic pKa",
+    "Basic pKa",
+    "cLogD7.4",
+    "cLogS",
+    "cLogP",
+    "Formal charge"
+  ],
+  "mean": [
+    8.314689822361887,
+    5.966918879224688,
+    0.7386677748804109,
+    -3.0212186353815116,
+    1.5555609867204696,
+    0.0045854732208363905
+  ],
+  "scale": [
+    2.7565220853843586,
+    2.8022673792712762,
+    1.7418251599978185,
+    1.1387189059020206,
+    0.9859643095029468,
+    0.06756068868933605
+  ],
+  "components": [
+    [
+      0.22040568788924614,
+      -0.27953613753971485,
+      0.607984454893977,
+      -0.43708292099247964,
+      0.5555614530342886,
+      -0.06281540608664432
+    ],
+    [
+      0.7102638570749038,
+      -0.36751680734660114,
+      0.16235115729187974,
+      0.2779377219121359,
+      -0.3889718935146321,
+      0.32488496451938603
+    ]
+  ],
+  "explained_variance_ratio": [
+    0.35746457906068796,
+    0.17604221837204345
+  ],
+  "n_reference": 5452,
+  "reference_dataset": "GNRetain V05 training set",
+  "reference_endpoint": "Gram-negative retention RP/RN",
+  "rdkit_version": "2025.09.4",
+  "scikit_learn_version": "1.8.0",
+  "source_matrix": "Final V05 GNRetain training metadata and runtime-estimated physicochemical descriptors",
+  "ionization_class_note": "Display-only heuristic from acidic/basic pKa and formal charge at pH 7.4; not a microstate calculation.",
+  "note": "Focused PCA fitted on acidic pKa, basic pKa, cLogD7.4, cLogS, cLogP, and formal charge. It is descriptive only and is not used for classification or applicability-domain assignment."
+}

@@ -1,0 +1,11 @@
+test,status,details
+source_schema_389,passed,"{'source_feature_count': 389, 'expected_source_feature_count': 389, 'source_schema_order_valid': True, 'motif_dictionary_rows': 35, 'duplicate_source_feature_names': 0, 'source_feature_set': 'GNRetain source descriptor bank (389 features)'}"
+source_feature_generation_preflight,passed,"{'source_shape': (3, 389), 'statuses': ['ok', 'ok', 'ok', 'failed']}"
+model_schema_artifact_221,passed,"{'model_features': 221, 'threshold': 0.575}"
+prediction_from_runtime_features,passed,"{'aspirin_probability': 0.9047532268646592, 'amoxicillin_probability': 0.924851425558533, 'ethanol_probability': 0.08511242417117204}"
+applicability_domain_221_features,passed,"{'summary': {'ad_category': 'borderline domain', 'nearest_neighbor_similarity': 0.304, 'training_chemistry_status': 'related/less common', 'ad_feature_space': 'GNRetain cleaned 221-feature model panel', 'ad_features_evaluated': 221, 'n_descriptor_range_severe': 0, 'n_descriptor_range_moderate': 5, 'n_descriptor_range_borderline': 26, 'ad_warning': 'Moderate training support based on similarity and the 221 model-feature ranges.'}, 'flag_counts': {'inside': 190, 'borderline': 26, 'moderate': 5}}"
+focused_ionization_solubility_visualization,passed,"{'query_values': {'Acidic pKa': 4.504627569536882, 'Basic pKa': 6.643459538828751, 'cLogD7.4': -3.927972440315392, 'cLogS': -2.4789178790835793, 'cLogP': -0.7631241871627571, 'Formal charge': 0.0}, 'focused_coordinates': (-3.5114254567202834, -0.4803638175107522), 'reference_rows': 5452}"
+batch_invalid_row_alignment,passed,"{'valid_prediction_rows': 3, 'failed_input_rows': 1}"
+reference_integrity,passed,"{'range_rows': 221, 'reference_n': 5452}"
+markdown_report,passed,# GNRetain Single-Molecule Prediction Report
+streamlit_ui_compile,passed,"{'compiled': True, 'required_ui_strings': 12}"

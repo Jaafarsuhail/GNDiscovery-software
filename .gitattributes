@@ -1,0 +1,3 @@
+# Keep byte-identical release files on all operating systems.
+# Do not apply Git automatic text EOL normalization; the source is UTF-8/LF.
+* -text

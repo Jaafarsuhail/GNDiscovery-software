@@ -1,0 +1,27 @@
+# Do not check in local data, reports, credentials, or caches.
+.streamlit/secrets.toml
+.env
+.env.*
+__pycache__/
+*.py[cod]
+batch_checkpoints/
+.gndiscovery_private_batch_*/
+*.tmp
+*.log
+.ipynb_checkpoints/
+.DS_Store
+
+# Reconstructed from the original Le Goff Supplementary Table S3; never commit these records.
+/GNRetain221_Support_Assets/ad_reference/diagnostic_descriptor_quantiles.csv
+/GNRetain221_Support_Assets/ad_reference/diagnostic_descriptor_reference.csv
+/GNRetain221_Support_Assets/ad_reference/diagnostic_pca_reference.csv
+/GNRetain221_Support_Assets/ad_reference/focused_descriptor_quantiles.csv
+/GNRetain221_Support_Assets/ad_reference/focused_descriptor_reference.csv
+/GNRetain221_Support_Assets/ad_reference/focused_pca_reference.csv
+/GNRetain221_Support_Assets/metadata/GNRetain221_training_rows.csv
+
+# Local development files and packaging artifacts
+.venv/
+venv/
+*.zip
+*.7z

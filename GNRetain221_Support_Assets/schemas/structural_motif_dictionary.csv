@@ -1,0 +1,36 @@
+motif_name,family,feature_kind,smarts,union_members,logic,description
+motif_primary_amine,basic_amine_axis,smarts,"[NX3;H2;!$(NC=O);!$(N~[S](=O)=O)]||[NX4H3+]",,,Primary amine and protonated primary amine excluding amide/sulfonamide nitrogen.
+motif_secondary_amine,basic_amine_axis,smarts,"[NX3;H1;!$(NC=O);!$(N~[S](=O)=O)]||[NX4H2+]",,,Secondary amine and protonated secondary amine excluding amide/sulfonamide nitrogen.
+motif_tertiary_amine,basic_amine_axis,smarts,"[NX3;H0;!$(NC=O);!$(N~[S](=O)=O);!$(N=*)]||[NX4H1+]",,,Tertiary amine and protonated tertiary amine excluding amide/sulfonamide/imine-like nitrogen.
+motif_quaternary_ammonium,basic_amine_axis,smarts,[NX4+;H0],,,Quaternary ammonium nitrogen.
+motif_basic_amine,basic_amine_axis,union,,motif_primary_amine;motif_secondary_amine;motif_tertiary_amine;motif_quaternary_ammonium,,Union of primary secondary tertiary and quaternary amine motifs.
+motif_benzylic_aminomethyl,aminomethyl_aromatic_amine_axis,smarts,"[a][CX4H2][NX3,NX4+]",,,Benzylic aminomethyl group.
+motif_aromatic_tertiary_amine,aminomethyl_aromatic_amine_axis,smarts,[a][NX3]([#6])[#6],,,Aromatic tertiary amine.
+motif_aniline_like,aminomethyl_aromatic_amine_axis,smarts,[a][NX3;!$(NC=O);!$(N~[S](=O)=O)],,,Aniline-like aryl nitrogen excluding amide/sulfonamide nitrogen.
+motif_heteroaryl_N_acceptor,heteroaromatic_nitrogen_axis,smarts,[n;H0],,,Aromatic heteroatom nitrogen acceptor.
+motif_heteroaryl_NH,heteroaromatic_nitrogen_axis,smarts,[nH],,,Aromatic heteroatom nitrogen donor.
+motif_N_rich_heteroaryl,heteroaromatic_nitrogen_axis,logic,,,aromatic_ring_has_at_least_two_nitrogen_atoms,Aromatic ring-level feature where an aromatic ring contains at least two nitrogens.
+motif_acyclic_amide,amide_lactam_polar_anchor,smarts,[CX3](=O)[NX3],,,Acyclic amide-like carbonyl nitrogen anchor.
+motif_lactam,amide_lactam_polar_anchor,smarts,[CX3R](=O)[NX3R],,,Ring amide/lactam anchor.
+motif_urea_carbamate,amide_lactam_polar_anchor,smarts,"[NX3][CX3](=O)[NX3,O]",,,Urea/carbamate anchor.
+motif_amide_lactam_anchor,amide_lactam_polar_anchor,union,,motif_acyclic_amide;motif_lactam;motif_urea_carbamate,,Union of acyclic amide lactam and urea/carbamate motifs.
+motif_aryl_ether,aryl_ether_polar_aryl_oxygen,smarts,[a][OX2][#6],,,Aryl ether.
+motif_aryl_oxygen_donor,aryl_ether_polar_aryl_oxygen,smarts,[a][OX2H],,,Phenol-like aryl oxygen donor.
+motif_methoxy_aryl,aryl_ether_polar_aryl_oxygen,smarts,[a][OX2][CH3],,,Methoxy aryl motif.
+motif_aryl_oxygen,aryl_ether_polar_aryl_oxygen,union,,motif_aryl_ether;motif_aryl_oxygen_donor;motif_methoxy_aryl,,Union of aryl ether aryl oxygen donor and methoxy aryl motifs.
+motif_aryl_chloride,halogenated_aromatic_cf3,smarts,[a][Cl],,,Aryl chloride.
+motif_aryl_fluoride,halogenated_aromatic_cf3,smarts,[a][F],,,Aryl fluoride.
+motif_heavy_aryl_halide,halogenated_aromatic_cf3,smarts,"[a][Br,I]",,,Aryl bromide or aryl iodide.
+motif_CF3,halogenated_aromatic_cf3,smarts,[CX4](F)(F)F,,,Trifluoromethyl group.
+motif_aryl_CF3,halogenated_aromatic_cf3,smarts,[a][CX4](F)(F)F,,,Aryl trifluoromethyl group.
+motif_aryl_halide,halogenated_aromatic_cf3,union,,motif_aryl_chloride;motif_aryl_fluoride;motif_heavy_aryl_halide,,Union of aryl chloride aryl fluoride and heavy aryl halide.
+motif_aromatic_ring_count,rigid_aromatic_low_3d_context,logic,,,aromatic_ring_count,Number of aromatic rings by RDKit ring logic.
+motif_aromatic_atom_fraction,rigid_aromatic_low_3d_context,logic,,,aromatic_atom_fraction,Fraction of heavy atoms that are aromatic atoms.
+motif_fused_aromatic_present,rigid_aromatic_low_3d_context,logic,,,fused_aromatic_present,Fused aromatic ring system present.
+context_rotbond_count,rigid_aromatic_low_3d_context,logic,,,rotatable_bond_count,RDKit rotatable bond count context feature.
+context_low_rotbond,rigid_aromatic_low_3d_context,logic,,,rotatable_bond_count_le_3,Locked low-rotatable-bond context using NumRotatableBonds <= 3.
+context_low_fraction_csp3,rigid_aromatic_low_3d_context,logic,,,fraction_csp3_lt_0p25,Locked low-FractionCSP3 context using FractionCSP3 < 0.25.
+motif_rigid_aromatic_context,rigid_aromatic_low_3d_context,logic,,,aromatic_system_and_low_rotbond_or_low_fraction_csp3,Aromatic system present and low rotatable bonds and/or low FractionCSP3.
+motif_amidine,nitrogen_rich_special_motifs,smarts,"[NX3][CX3](=[NX2,NX3+])[#6]",,,Amidine motif.
+motif_guanidine,nitrogen_rich_special_motifs,smarts,"[NX3][CX3](=[NX2,NX3+])[NX3]",,,Guanidine motif.
+motif_sulfonamide,nitrogen_rich_special_motifs,smarts,[SX4](=[OX1])(=[OX1])[NX3],,,Sulfonamide motif.

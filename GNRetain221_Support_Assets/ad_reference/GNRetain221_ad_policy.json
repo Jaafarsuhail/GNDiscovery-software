@@ -1,0 +1,23 @@
+{
+  "endpoint": "E. coli \u0394tolC-associated retention profile",
+  "reference_dataset": "GNRetain V05 training set",
+  "n_reference": 5452,
+  "feature_space": "GNRetain cleaned 221-feature model panel",
+  "nearest_neighbor_fingerprint": "Morgan radius 2, 2048 bits",
+  "inside_domain": {
+    "nearest_neighbor_similarity_min": 0.45,
+    "severe_max": 0,
+    "moderate_max": 10
+  },
+  "borderline_domain": {
+    "nearest_neighbor_similarity_min": 0.3,
+    "severe_max": 2,
+    "moderate_max": 36
+  },
+  "cutoff_derivation": {
+    "moderate_count_95th_percentile": 10,
+    "moderate_count_99_5th_percentile": 36,
+    "reference_rows": 5452
+  },
+  "note": "PCA maps are descriptive. Formal support uses Morgan similarity and all 221 model-feature ranges."
+}

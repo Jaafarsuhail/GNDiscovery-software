@@ -1,0 +1,222 @@
+feature_order,feature,feature_group
+1,alkyl_amines,engineered/frozen descriptors
+2,amides,engineered/frozen descriptors
+3,aromatic_amines,engineered/frozen descriptors
+4,aromatic_atoms,engineered/frozen descriptors
+5,aromatic_nitrogens,engineered/frozen descriptors
+6,aromatic_rings,engineered/frozen descriptors
+7,basic_nitrogens,engineered/frozen descriptors
+8,c_atoms,engineered/frozen descriptors
+9,clogp,engineered/frozen descriptors
+10,clogs,engineered/frozen descriptors
+11,electro_negative_atoms,engineered/frozen descriptors
+12,h_acceptors,engineered/frozen descriptors
+13,h_donors,engineered/frozen descriptors
+14,molecular_complexity,engineered/frozen descriptors
+15,molecular_flexibility,engineered/frozen descriptors
+16,non_c_h_atoms,engineered/frozen descriptors
+17,non_h_atoms,engineered/frozen descriptors
+18,rings_closures,engineered/frozen descriptors
+19,rotatable_bonds,engineered/frozen descriptors
+20,small_rings,engineered/frozen descriptors
+21,sp3_atoms,engineered/frozen descriptors
+22,symmetric_atoms,engineered/frozen descriptors
+23,total_surface_area,engineered/frozen descriptors
+24,fraction_csp3,engineered/frozen descriptors
+25,aliphatic_rings,engineered/frozen descriptors
+26,aromatic_carbocycles,engineered/frozen descriptors
+27,aromatic_heterocycles,engineered/frozen descriptors
+28,saturated_carbocycles,engineered/frozen descriptors
+29,saturated_heterocycles,engineered/frozen descriptors
+30,saturated_rings,engineered/frozen descriptors
+31,acidic_pka,engineered/frozen descriptors
+32,basic_pka,engineered/frozen descriptors
+33,clogd_ph_7_4,engineered/frozen descriptors
+34,fb_s04s_polar_buried_lipophilicity_proxy,engineered/frozen descriptors
+35,eng2_prev_clogs_esol,engineered/frozen descriptors
+36,eng2_eng_clogs_minus_clogp,engineered/frozen descriptors
+37,ru_rdkit_MaxAbsEStateIndex,RDKit descriptors and fragments
+38,ru_rdkit_MinAbsEStateIndex,RDKit descriptors and fragments
+39,ru_rdkit_MinEStateIndex,RDKit descriptors and fragments
+40,ru_rdkit_qed,RDKit descriptors and fragments
+41,ru_rdkit_SPS,RDKit descriptors and fragments
+42,ru_rdkit_MolWt,RDKit descriptors and fragments
+43,ru_rdkit_HeavyAtomMolWt,RDKit descriptors and fragments
+44,ru_rdkit_ExactMolWt,RDKit descriptors and fragments
+45,ru_rdkit_NumValenceElectrons,RDKit descriptors and fragments
+46,ru_rdkit_MaxPartialCharge,RDKit descriptors and fragments
+47,ru_rdkit_MinPartialCharge,RDKit descriptors and fragments
+48,ru_rdkit_MaxAbsPartialCharge,RDKit descriptors and fragments
+49,ru_rdkit_MinAbsPartialCharge,RDKit descriptors and fragments
+50,ru_rdkit_FpDensityMorgan1,RDKit descriptors and fragments
+51,ru_rdkit_FpDensityMorgan2,RDKit descriptors and fragments
+52,ru_rdkit_FpDensityMorgan3,RDKit descriptors and fragments
+53,ru_rdkit_BCUT2D_MWHI,RDKit descriptors and fragments
+54,ru_rdkit_BCUT2D_MWLOW,RDKit descriptors and fragments
+55,ru_rdkit_BCUT2D_CHGHI,RDKit descriptors and fragments
+56,ru_rdkit_BCUT2D_CHGLO,RDKit descriptors and fragments
+57,ru_rdkit_BCUT2D_LOGPHI,RDKit descriptors and fragments
+58,ru_rdkit_BCUT2D_LOGPLOW,RDKit descriptors and fragments
+59,ru_rdkit_BCUT2D_MRHI,RDKit descriptors and fragments
+60,ru_rdkit_BCUT2D_MRLOW,RDKit descriptors and fragments
+61,ru_rdkit_AvgIpc,RDKit descriptors and fragments
+62,ru_rdkit_BalabanJ,RDKit descriptors and fragments
+63,ru_rdkit_BertzCT,RDKit descriptors and fragments
+64,ru_rdkit_Chi0,RDKit descriptors and fragments
+65,ru_rdkit_Chi0n,RDKit descriptors and fragments
+66,ru_rdkit_Chi0v,RDKit descriptors and fragments
+67,ru_rdkit_Chi1,RDKit descriptors and fragments
+68,ru_rdkit_Chi1n,RDKit descriptors and fragments
+69,ru_rdkit_Chi1v,RDKit descriptors and fragments
+70,ru_rdkit_Chi2n,RDKit descriptors and fragments
+71,ru_rdkit_Chi2v,RDKit descriptors and fragments
+72,ru_rdkit_Chi3n,RDKit descriptors and fragments
+73,ru_rdkit_Chi3v,RDKit descriptors and fragments
+74,ru_rdkit_Chi4n,RDKit descriptors and fragments
+75,ru_rdkit_Chi4v,RDKit descriptors and fragments
+76,ru_rdkit_HallKierAlpha,RDKit descriptors and fragments
+77,ru_rdkit_Ipc,RDKit descriptors and fragments
+78,ru_rdkit_Kappa1,RDKit descriptors and fragments
+79,ru_rdkit_Kappa2,RDKit descriptors and fragments
+80,ru_rdkit_Kappa3,RDKit descriptors and fragments
+81,ru_rdkit_LabuteASA,RDKit descriptors and fragments
+82,ru_rdkit_PEOE_VSA1,RDKit descriptors and fragments
+83,ru_rdkit_PEOE_VSA10,RDKit descriptors and fragments
+84,ru_rdkit_PEOE_VSA11,RDKit descriptors and fragments
+85,ru_rdkit_PEOE_VSA12,RDKit descriptors and fragments
+86,ru_rdkit_PEOE_VSA13,RDKit descriptors and fragments
+87,ru_rdkit_PEOE_VSA14,RDKit descriptors and fragments
+88,ru_rdkit_PEOE_VSA2,RDKit descriptors and fragments
+89,ru_rdkit_PEOE_VSA3,RDKit descriptors and fragments
+90,ru_rdkit_PEOE_VSA4,RDKit descriptors and fragments
+91,ru_rdkit_PEOE_VSA5,RDKit descriptors and fragments
+92,ru_rdkit_PEOE_VSA6,RDKit descriptors and fragments
+93,ru_rdkit_PEOE_VSA7,RDKit descriptors and fragments
+94,ru_rdkit_PEOE_VSA8,RDKit descriptors and fragments
+95,ru_rdkit_PEOE_VSA9,RDKit descriptors and fragments
+96,ru_rdkit_SMR_VSA1,RDKit descriptors and fragments
+97,ru_rdkit_SMR_VSA10,RDKit descriptors and fragments
+98,ru_rdkit_SMR_VSA2,RDKit descriptors and fragments
+99,ru_rdkit_SMR_VSA3,RDKit descriptors and fragments
+100,ru_rdkit_SMR_VSA4,RDKit descriptors and fragments
+101,ru_rdkit_SMR_VSA5,RDKit descriptors and fragments
+102,ru_rdkit_SMR_VSA6,RDKit descriptors and fragments
+103,ru_rdkit_SMR_VSA7,RDKit descriptors and fragments
+104,ru_rdkit_SMR_VSA9,RDKit descriptors and fragments
+105,ru_rdkit_SlogP_VSA1,RDKit descriptors and fragments
+106,ru_rdkit_SlogP_VSA10,RDKit descriptors and fragments
+107,ru_rdkit_SlogP_VSA11,RDKit descriptors and fragments
+108,ru_rdkit_SlogP_VSA12,RDKit descriptors and fragments
+109,ru_rdkit_SlogP_VSA2,RDKit descriptors and fragments
+110,ru_rdkit_SlogP_VSA3,RDKit descriptors and fragments
+111,ru_rdkit_SlogP_VSA4,RDKit descriptors and fragments
+112,ru_rdkit_SlogP_VSA5,RDKit descriptors and fragments
+113,ru_rdkit_SlogP_VSA6,RDKit descriptors and fragments
+114,ru_rdkit_SlogP_VSA7,RDKit descriptors and fragments
+115,ru_rdkit_SlogP_VSA8,RDKit descriptors and fragments
+116,ru_rdkit_TPSA,RDKit descriptors and fragments
+117,ru_rdkit_EState_VSA1,RDKit descriptors and fragments
+118,ru_rdkit_EState_VSA10,RDKit descriptors and fragments
+119,ru_rdkit_EState_VSA11,RDKit descriptors and fragments
+120,ru_rdkit_EState_VSA2,RDKit descriptors and fragments
+121,ru_rdkit_EState_VSA3,RDKit descriptors and fragments
+122,ru_rdkit_EState_VSA4,RDKit descriptors and fragments
+123,ru_rdkit_EState_VSA5,RDKit descriptors and fragments
+124,ru_rdkit_EState_VSA6,RDKit descriptors and fragments
+125,ru_rdkit_EState_VSA7,RDKit descriptors and fragments
+126,ru_rdkit_EState_VSA8,RDKit descriptors and fragments
+127,ru_rdkit_EState_VSA9,RDKit descriptors and fragments
+128,ru_rdkit_VSA_EState1,RDKit descriptors and fragments
+129,ru_rdkit_VSA_EState10,RDKit descriptors and fragments
+130,ru_rdkit_VSA_EState2,RDKit descriptors and fragments
+131,ru_rdkit_VSA_EState3,RDKit descriptors and fragments
+132,ru_rdkit_VSA_EState4,RDKit descriptors and fragments
+133,ru_rdkit_VSA_EState5,RDKit descriptors and fragments
+134,ru_rdkit_VSA_EState6,RDKit descriptors and fragments
+135,ru_rdkit_VSA_EState7,RDKit descriptors and fragments
+136,ru_rdkit_VSA_EState8,RDKit descriptors and fragments
+137,ru_rdkit_VSA_EState9,RDKit descriptors and fragments
+138,ru_rdkit_NHOHCount,RDKit descriptors and fragments
+139,ru_rdkit_NOCount,RDKit descriptors and fragments
+140,ru_rdkit_NumAliphaticCarbocycles,RDKit descriptors and fragments
+141,ru_rdkit_NumAliphaticHeterocycles,RDKit descriptors and fragments
+142,ru_rdkit_NumAtomStereoCenters,RDKit descriptors and fragments
+143,ru_rdkit_NumBridgeheadAtoms,RDKit descriptors and fragments
+144,ru_rdkit_NumHeterocycles,RDKit descriptors and fragments
+145,ru_rdkit_NumSpiroAtoms,RDKit descriptors and fragments
+146,ru_rdkit_NumUnspecifiedAtomStereoCenters,RDKit descriptors and fragments
+147,ru_rdkit_Phi,RDKit descriptors and fragments
+148,ru_rdkit_MolLogP,RDKit descriptors and fragments
+149,ru_rdkit_MolMR,RDKit descriptors and fragments
+150,ru_rdkit_fr_Al_COO,RDKit descriptors and fragments
+151,ru_rdkit_fr_Al_OH,RDKit descriptors and fragments
+152,ru_rdkit_fr_Al_OH_noTert,RDKit descriptors and fragments
+153,ru_rdkit_fr_ArN,RDKit descriptors and fragments
+154,ru_rdkit_fr_Ar_COO,RDKit descriptors and fragments
+155,ru_rdkit_fr_Ar_NH,RDKit descriptors and fragments
+156,ru_rdkit_fr_Ar_OH,RDKit descriptors and fragments
+157,ru_rdkit_fr_COO,RDKit descriptors and fragments
+158,ru_rdkit_fr_COO2,RDKit descriptors and fragments
+159,ru_rdkit_fr_C_O,RDKit descriptors and fragments
+160,ru_rdkit_fr_C_O_noCOO,RDKit descriptors and fragments
+161,ru_rdkit_fr_C_S,RDKit descriptors and fragments
+162,ru_rdkit_fr_HOCCN,RDKit descriptors and fragments
+163,ru_rdkit_fr_Imine,RDKit descriptors and fragments
+164,ru_rdkit_fr_NH0,RDKit descriptors and fragments
+165,ru_rdkit_fr_NH1,RDKit descriptors and fragments
+166,ru_rdkit_fr_NH2,RDKit descriptors and fragments
+167,ru_rdkit_fr_N_O,RDKit descriptors and fragments
+168,ru_rdkit_fr_Ndealkylation1,RDKit descriptors and fragments
+169,ru_rdkit_fr_Ndealkylation2,RDKit descriptors and fragments
+170,ru_rdkit_fr_aldehyde,RDKit descriptors and fragments
+171,ru_rdkit_fr_alkyl_carbamate,RDKit descriptors and fragments
+172,ru_rdkit_fr_alkyl_halide,RDKit descriptors and fragments
+173,ru_rdkit_fr_allylic_oxid,RDKit descriptors and fragments
+174,ru_rdkit_fr_amidine,RDKit descriptors and fragments
+175,ru_rdkit_fr_aniline,RDKit descriptors and fragments
+176,ru_rdkit_fr_aryl_methyl,RDKit descriptors and fragments
+177,ru_rdkit_fr_azo,RDKit descriptors and fragments
+178,ru_rdkit_fr_barbitur,RDKit descriptors and fragments
+179,ru_rdkit_fr_benzene,RDKit descriptors and fragments
+180,ru_rdkit_fr_benzodiazepine,RDKit descriptors and fragments
+181,ru_rdkit_fr_bicyclic,RDKit descriptors and fragments
+182,ru_rdkit_fr_epoxide,RDKit descriptors and fragments
+183,ru_rdkit_fr_ester,RDKit descriptors and fragments
+184,ru_rdkit_fr_ether,RDKit descriptors and fragments
+185,ru_rdkit_fr_furan,RDKit descriptors and fragments
+186,ru_rdkit_fr_guanido,RDKit descriptors and fragments
+187,ru_rdkit_fr_halogen,RDKit descriptors and fragments
+188,ru_rdkit_fr_hdrzine,RDKit descriptors and fragments
+189,ru_rdkit_fr_hdrzone,RDKit descriptors and fragments
+190,ru_rdkit_fr_imidazole,RDKit descriptors and fragments
+191,ru_rdkit_fr_imide,RDKit descriptors and fragments
+192,ru_rdkit_fr_ketone,RDKit descriptors and fragments
+193,ru_rdkit_fr_ketone_Topliss,RDKit descriptors and fragments
+194,ru_rdkit_fr_lactam,RDKit descriptors and fragments
+195,ru_rdkit_fr_lactone,RDKit descriptors and fragments
+196,ru_rdkit_fr_methoxy,RDKit descriptors and fragments
+197,ru_rdkit_fr_morpholine,RDKit descriptors and fragments
+198,ru_rdkit_fr_nitrile,RDKit descriptors and fragments
+199,ru_rdkit_fr_nitro,RDKit descriptors and fragments
+200,ru_rdkit_fr_nitro_arom,RDKit descriptors and fragments
+201,ru_rdkit_fr_nitro_arom_nonortho,RDKit descriptors and fragments
+202,ru_rdkit_fr_oxazole,RDKit descriptors and fragments
+203,ru_rdkit_fr_oxime,RDKit descriptors and fragments
+204,ru_rdkit_fr_para_hydroxylation,RDKit descriptors and fragments
+205,ru_rdkit_fr_phenol,RDKit descriptors and fragments
+206,ru_rdkit_fr_phenol_noOrthoHbond,RDKit descriptors and fragments
+207,ru_rdkit_fr_piperdine,RDKit descriptors and fragments
+208,ru_rdkit_fr_piperzine,RDKit descriptors and fragments
+209,ru_rdkit_fr_priamide,RDKit descriptors and fragments
+210,ru_rdkit_fr_prisulfonamd,RDKit descriptors and fragments
+211,ru_rdkit_fr_pyridine,RDKit descriptors and fragments
+212,ru_rdkit_fr_quatN,RDKit descriptors and fragments
+213,ru_rdkit_fr_sulfide,RDKit descriptors and fragments
+214,ru_rdkit_fr_sulfonamd,RDKit descriptors and fragments
+215,ru_rdkit_fr_sulfone,RDKit descriptors and fragments
+216,ru_rdkit_fr_term_acetylene,RDKit descriptors and fragments
+217,ru_rdkit_fr_tetrazole,RDKit descriptors and fragments
+218,ru_rdkit_fr_thiazole,RDKit descriptors and fragments
+219,ru_rdkit_fr_thiophene,RDKit descriptors and fragments
+220,ru_rdkit_fr_unbrch_alkane,RDKit descriptors and fragments
+221,ru_rdkit_fr_urea,RDKit descriptors and fragments

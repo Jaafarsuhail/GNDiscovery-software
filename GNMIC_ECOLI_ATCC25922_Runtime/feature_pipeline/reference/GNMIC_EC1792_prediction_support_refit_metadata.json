@@ -1,0 +1,31 @@
+{
+  "n": 10148,
+  "n_original_predictions_changed_vs_surrogate": 569,
+  "original_GNMIC_roc_auc": 0.9006904726811145,
+  "original_GNMIC_accuracy": 0.8319865983445014,
+  "support_correctness_AUROC": 0.8118283622136786,
+  "support_correctness_AP": 0.95371884729365,
+  "support_correctness_Brier": 0.11316140908401535,
+  "confidence_only_correctness_AUROC": 0.7728720767833146,
+  "confidence_only_correctness_Brier": 0.12249555071692472,
+  "evaluation": "5-fold scaffold-grouped cross-fitting of correctness model; category thresholds inherited unchanged from archived PSv2; OOF chemical evidence is sourced from archived holdout-safe neighbour tables, with class-dependent fields reoriented; this is a NEW support model and not a recovery of historical original",
+  "feature_preparation_limit": "Historical neighbour features were reconstructed in a previous audit using the original training chemistry and preserved scaffold folds. Current release uses that saved evidence rather than independently regenerating all 10,148 neighbourhood matrices.",
+  "categories": {
+    "High": {
+      "n": 5182,
+      "accuracy": 0.956966422230799
+    },
+    "Moderate": {
+      "n": 2580,
+      "accuracy": 0.8
+    },
+    "Low": {
+      "n": 2177,
+      "accuracy": 0.5806155259531466
+    },
+    "Indeterminate": {
+      "n": 209,
+      "accuracy": 0.7464114832535885
+    }
+  }
+}
