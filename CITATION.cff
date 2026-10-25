@@ -1,10 +1,13 @@
 cff-version: 1.2.0
-message: "If you use GNDiscovery in research, please cite the associated publication and the software."
+message: "If you use GNDiscovery, please cite the software release and the associated research publication."
 title: "GNDiscovery: an integrated platform for predicting bacterial retention and MIC activity"
 type: software
 authors:
   - family-names: Wadi
     given-names: Jaafar Suhail
+version: "1.0.0"
+repository-code: "https://github.com/Jaafarsuhail/GNDiscovery-software"
+license: MIT
 keywords:
   - cheminformatics
   - antibacterial discovery
