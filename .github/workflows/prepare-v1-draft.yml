@@ -1,0 +1,28 @@
+name: Prepare GNDiscovery v1.0.0 draft
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/prepare-v1-draft.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draft-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify distributed source and model identity
+        run: python3 qa/verify_distribution.py
+      - name: Create unpublished versioned release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            echo 'GNDiscovery v1.0.0 release already exists.'
+          else
+            gh release create v1.0.0 --draft --title 'GNDiscovery v1.0.0' --notes-file RELEASE_NOTES.md --target "$GITHUB_SHA"
+          fi
